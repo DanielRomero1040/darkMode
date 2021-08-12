@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.darkMode {
+  color: white;
+  background-color: rgb(46, 39, 39);
+}
+
+.lightMode {
+  color: rgb(46, 39, 39);
+  background-color: white;
+}
+
+.inputs input {
+  height: 30px;
+  width: 80vw;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.694);
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons input {
+  height: 30px;
+  width: 7vw;
+  margin-top: 15;
+  margin: 10px;
+  border-radius: 1px;
+}
+
+.home {
+  padding: 10vh 10vw;
+  height: 100vh;
+}
+
+.paragraph {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  height: 4vh;
+}
